@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 80%;
+  /* height: 30px; */
+  margin: 0 auto;
+  margin-bottom: 5px;
+  background-color: gray;
+}
+
+button {
+  margin-left: 5px;
+  padding: 5px 10px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  height: 300px;
+  background-color: rgb(197, 61, 61);
+
+}
+
+.item li {
+  float: left;
+  margin: 10px;
+  list-style: none;
+  padding-left: 10px;
+}
+
+.cards {
+  width: 300px;
+  height: 230px;
+  background-color: gray;
+  margin-left: 50px;
+  border-bottom: 1px solid black;
+  float: left;
+}
+
+.num {
+  width: 20px;
+  margin-left: 20px;
+  text-align: center;
+  border: 2px solid red;
+  border-radius: 50%;
+}
+
+.heading {
+  width: 300px;
+  height: 100px;
+  color: aliceblue;
+
+  margin-left: 10px;
+}
+
+.heading h1 {
+  text-transform: uppercase;
+}
+
+.heading p {
+  color: black;
+}
+
+img {
+  margin-left: 100px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.price {
+  margin-right: 10px;
+  margin-top: 80px;
+  color: purple;
+  text-decoration: underline;
+  float: right;
+}
+
+.nav {
+  background-color: red;
+  list-style-type: none;
+  padding-left: 15px;
+
+}
+
+.nav li {
+  margin: 5px;
+}
+
+.nav a {
+  background-color: green;
+  border-radius: 5px;
+  padding: 3px 8px;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.main {
+  width: 80%;
+  margin: 0 auto;
+  height: 300px;
+  background-color: silver;
+}
+
+.first {
+  width: 73%;
+  height: 180px;
+  border: 2px solid blueviolet;
+  float: left;
+  margin: 5px;
+}
+
+.first span {
+  border-radius: 50%;
+  background-color: rebeccapurple;
+  margin: 0 20px;
+  padding: 5px 10px;
+  z-index: 1;
+  color: aliceblue;
+  float: left;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.second {
+  float: left;
+  width: 20%;
+  height: 180px;
+  margin: 5px;
+  border: 2px solid green;
+
+}
+
+.footer {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  background-color: gray;
+}
